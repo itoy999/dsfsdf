@@ -7,6 +7,13 @@ This repository contains everything you need to follow the "[Thinking in Arrays]
 > [!IMPORTANT]
 > **Strongly recommended: do a local setup *and* pre-download the Part 4 dataset before the tutorial.** Conference Wi-Fi is unreliable, and this is the only way to guarantee you can follow along regardless of what the network does on the day.
 
+> [!NOTE]
+> The file `https://pivarski-princeton.s3.us-east-1.amazonaws.com/chicago-taxi.parquet`, referred to above as the Part 4 dataset, has been deleted. It is now [hosted on Zenodo](https://zenodo.org/records/14537442); download it with
+>
+> ```bash
+> wget 'https://zenodo.org/records/14537442/files/chicago-taxi.parquet?download=1' -O chicago-taxi.parquet
+> ```
+
 ### Recommended path (local + pre-downloaded data)
 
 1. Clone this repository and create the virtual environment using one of the setups below (`pixi`, `uv`, `venv`, `conda`, etc.) — see the sections that follow.
